@@ -1,0 +1,17 @@
+16/10/19 14:24: Setting delay=1000
+16/10/19 14:24: Setting logging=false
+16/10/19 14:24: Setting timeout=5000
+16/10/19 14:24: Adding url to queue for scraping: https://www.csfd.cz/film/11393-prvni-rana/prehled/
+16/10/19 14:24: Adding url to queue for scraping: https://www.novinky.cz/zahranicni
+16/10/19 14:24: Starting to parse url https://www.csfd.cz/film/11393-prvni-rana/prehled/
+16/10/19 14:24: Javascript running: true - waiting 3000ms
+16/10/19 14:24: Loading page...
+16/10/19 14:25: Page loaded...
+16/10/19 14:25: Parsing defined dataItem from input file: 
+16/10/19 14:25: Parsing xpath: {}
+16/10/19 14:25: Starting to parse url https://www.novinky.cz/zahranicni
+16/10/19 14:25: Javascript running: true - waiting 3000ms
+16/10/19 14:25: Loading page...
+16/10/19 14:25: Page loaded...
+16/10/19 14:25: Parsing defined dataItem from input file: 
+16/10/19 14:25: Parsing xpath: {}

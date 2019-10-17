@@ -1,0 +1,10 @@
+16/10/19 14:31: Setting delay=1000
+16/10/19 14:31: Setting logging=false
+16/10/19 14:31: Setting timeout=5000
+16/10/19 14:31: Error: Wrong format of input JSON parameters.
+16/10/19 14:31: Adding url to queue for scraping: https://www.csfd.cz/film/11393-prvni-rana/prehled/
+16/10/19 14:31: Error: Wrong format of input JSON parameters.
+16/10/19 14:31: Adding url to queue for scraping: https://www.novinky.cz/zahranicni
+16/10/19 14:31: Starting to parse url https://www.csfd.cz/film/11393-prvni-rana/prehled/
+16/10/19 14:31: Javascript running: true - waiting 3000ms
+16/10/19 14:31: Loading page...

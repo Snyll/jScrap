@@ -1,0 +1,8 @@
+16/10/19 08:12: Setting delay=1000
+16/10/19 08:12: Setting logging=false
+16/10/19 08:12: Setting timeout=5000
+16/10/19 08:12: Adding url to queue for scraping: https://www.csfd.cz/film/11393-prvni-rana/prehled/
+16/10/19 08:12: Adding url to queue for scraping: https://www.novinky.cz/zahranicni
+16/10/19 08:12: Starting to parse url https://www.csfd.cz/film/11393-prvni-rana/prehled/
+16/10/19 08:12: Javascript running: true - waiting 3000ms
+16/10/19 08:12: Loading page...

@@ -1,0 +1,41 @@
+16/10/19 07:11: Setting delay=1000
+16/10/19 07:11: Setting logging=false
+16/10/19 07:11: Setting timeout=5000
+16/10/19 07:11: Adding url to queue for scraping: https://www.csfd.cz/film/11393-prvni-rana/prehled/
+16/10/19 07:11: Adding url to queue for scraping: https://www.csfd.cz/film/11393-prvni-rana/prehled/
+16/10/19 07:11: Starting to parse url https://www.csfd.cz/film/11393-prvni-rana/prehled/
+16/10/19 07:11: Javascript running: true - waiting 3000ms
+16/10/19 07:11: Loading page...
+16/10/19 07:12: Page loaded...
+16/10/19 07:12: Parsing defined value from input file: plot
+16/10/19 07:12: Parsin xpath: //*[@id="plots"]/div[2]/ul/li[1]/div/text()[1]
+16/10/19 07:12: New data pair saved: plot - 
+16/10/19 07:12: Full xpath result: 
+16/10/19 07:12: New data pair saved: plot - Hongkongský policista Jackie přijme úkol sledovat podezřelou ruskou krásku Natašu na cestě do Ruska. Zpočátku to vypadá jako jednoduchý, dokonce příjemný úkol. Nataša totiž cestou neprovádí nic neobvyklého ani podezřelého. To ovšem platí jen do chvíle, než se setká se svým milencem Tsuiem, který ilegálně obchoduje se zbraněmi. Rázem se ve hře ocitá také ukradená ukrajinská jaderná hlavice a Jackie má najednou plné ruce práce. Poklidné sledování ve službách CIA a ruské tajné služby se mění v životu nebezpečné pronásledování Tsuie, Nataši a celé bandy další… (
+16/10/19 07:12: Full xpath result: Hongkongský policista Jackie přijme úkol sledovat podezřelou ruskou krásku Natašu na cestě do Ruska. Zpočátku to vypadá jako jednoduchý, dokonce příjemný úkol. Nataša totiž cestou neprovádí nic neobvyklého ani podezřelého. To ovšem platí jen do chvíle, než se setká se svým milencem Tsuiem, který ilegálně obchoduje se zbraněmi. Rázem se ve hře ocitá také ukradená ukrajinská jaderná hlavice a Jackie má najednou plné ruce práce. Poklidné sledování ve službách CIA a ruské tajné služby se mění v životu nebezpečné pronásledování Tsuie, Nataši a celé bandy další… (
+16/10/19 07:12: Parsing defined value from input file: rating
+16/10/19 07:12: Parsin xpath: //*[@id="rating"]/h2
+16/10/19 07:12: New data pair saved: rating - 74%
+16/10/19 07:12: Full xpath result: 74%
+16/10/19 07:12: Parsing defined value from input file: movieName
+16/10/19 07:12: Parsin xpath: //*[@id="profile"]/div[1]/div[2]/div[1]/h1
+16/10/19 07:12: New data pair saved: movieName - První rána
+16/10/19 07:12: Full xpath result: První rána
+16/10/19 07:12: Starting to parse url https://www.csfd.cz/film/11393-prvni-rana/prehled/
+16/10/19 07:12: Javascript running: true - waiting 3000ms
+16/10/19 07:12: Loading page...
+16/10/19 07:12: Page loaded...
+16/10/19 07:12: Parsing defined value from input file: plot
+16/10/19 07:12: Parsin xpath: //*[@id="plots"]/div[2]/ul/li[1]/div/text()[1]
+16/10/19 07:12: New data pair saved: plot - 
+16/10/19 07:12: Full xpath result: 
+16/10/19 07:12: New data pair saved: plot - Hongkongský policista Jackie přijme úkol sledovat podezřelou ruskou krásku Natašu na cestě do Ruska. Zpočátku to vypadá jako jednoduchý, dokonce příjemný úkol. Nataša totiž cestou neprovádí nic neobvyklého ani podezřelého. To ovšem platí jen do chvíle, než se setká se svým milencem Tsuiem, který ilegálně obchoduje se zbraněmi. Rázem se ve hře ocitá také ukradená ukrajinská jaderná hlavice a Jackie má najednou plné ruce práce. Poklidné sledování ve službách CIA a ruské tajné služby se mění v životu nebezpečné pronásledování Tsuie, Nataši a celé bandy další… (
+16/10/19 07:12: Full xpath result: Hongkongský policista Jackie přijme úkol sledovat podezřelou ruskou krásku Natašu na cestě do Ruska. Zpočátku to vypadá jako jednoduchý, dokonce příjemný úkol. Nataša totiž cestou neprovádí nic neobvyklého ani podezřelého. To ovšem platí jen do chvíle, než se setká se svým milencem Tsuiem, který ilegálně obchoduje se zbraněmi. Rázem se ve hře ocitá také ukradená ukrajinská jaderná hlavice a Jackie má najednou plné ruce práce. Poklidné sledování ve službách CIA a ruské tajné služby se mění v životu nebezpečné pronásledování Tsuie, Nataši a celé bandy další… (
+16/10/19 07:12: Parsing defined value from input file: rating
+16/10/19 07:12: Parsin xpath: //*[@id="rating"]/h2
+16/10/19 07:12: New data pair saved: rating - 74%
+16/10/19 07:12: Full xpath result: 74%
+16/10/19 07:12: Parsing defined value from input file: movieName
+16/10/19 07:12: Parsin xpath: //*[@id="profile"]/div[1]/div[2]/div[1]/h1
+16/10/19 07:12: New data pair saved: movieName - První rána
+16/10/19 07:12: Full xpath result: První rána

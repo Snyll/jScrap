@@ -12,6 +12,8 @@ import java.util.stream.Stream;
 
 import org.json.JSONObject;
 
+import jScrap.Scraper.Scrap;
+
 public class JsonHandler {
 	private String JSONFile;
 	private JSONObject JSON;
@@ -24,8 +26,9 @@ public class JsonHandler {
 		return JSON;
 	}
 
-	public void buildJSONfromMap(Map<String, ArrayList<String>> JSONMap) {
+	public void buildJSONfromMap(Map<String, ArrayList<Scrap>> JSONMap) {
 		if (JSONMap.isEmpty()) { 
+			jScrap.logger.log("Result HashMap is empty!");
 			return;
 		}
 		this.JSON = new JSONObject(JSONMap);
@@ -47,14 +50,17 @@ public class JsonHandler {
 	
 	public void saveToFile() {
 		PrintWriter out;
-		if (!JSON.isEmpty()) {
+		if (this.JSON != null) {
 			try {
 				out = new PrintWriter(this.JSONFile);
-				out.println(JSON.toString());
+				out.println(this.JSON.toString(4));
+				out.close();
 			} catch (FileNotFoundException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
-			}		
+			}
+		} else {
+			jScrap.logger.log("JSON is empty for output!");
 		}
 	}
 	

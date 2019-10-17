@@ -1,0 +1,9 @@
+10/10/19 14:58: Setting delay=1000
+10/10/19 14:58: Setting logging=false
+10/10/19 14:58: Setting timeout=5000
+10/10/19 14:58: Adding url to queue for scraping: https://www.csfd.cz/film/11393-prvni-rana/prehled/
+10/10/19 14:58: Adding url to queue for scraping: https://www.csfd.cz/film/11393-prvni-rana/prehled/
+10/10/19 14:58: Starting to parse url https://www.csfd.cz/film/11393-prvni-rana/prehled/
+10/10/19 14:58: Loading page...
+10/10/19 14:58: Page loaded...
+10/10/19 14:58: Parsing defined value from input file: plot

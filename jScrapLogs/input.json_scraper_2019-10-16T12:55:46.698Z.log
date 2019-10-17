@@ -1,0 +1,63 @@
+16/10/19 14:55: Setting delay=1000
+16/10/19 14:55: Setting logging=false
+16/10/19 14:55: Setting timeout=5000
+16/10/19 14:55: Adding url to queue for scraping: https://www.csfd.cz/film/11393-prvni-rana/prehled/
+16/10/19 14:55: Adding url to queue for scraping: https://www.novinky.cz/zahranicni
+16/10/19 14:55: Starting to parse url https://www.csfd.cz/film/11393-prvni-rana/prehled/
+16/10/19 14:55: Javascript running: true - waiting 3000ms
+16/10/19 14:55: Loading page...
+16/10/19 14:56: Page loaded...
+16/10/19 14:56: Parsing defined dataItem from input file: movieDetails
+16/10/19 14:56: New data pair saved: plot - 
+16/10/19 14:56: New data pair saved: plot - Hongkongský policista Jackie přijme úkol sledovat podezřelou ruskou krásku Natašu na cestě do Ruska. Zpočátku to vypadá jako jednoduchý, dokonce příjemný úkol. Nataša totiž cestou neprovádí nic neobvyklého ani podezřelého. To ovšem platí jen do chvíle, než se setká se svým milencem Tsuiem, který ilegálně obchoduje se zbraněmi. Rázem se ve hře ocitá také ukradená ukrajinská jaderná hlavice a Jackie má najednou plné ruce práce. Poklidné sledování ve službách CIA a ruské tajné služby se mění v životu nebezpečné pronásledování Tsuie, Nataši a celé bandy dalších lotrů. Od zasněžených hor Ukrajiny až po žraloky zamořené vody v Austrálii. Musí se vyhýbat nejen smrtelným nástrahám, kulkám a smrtícím úderům, ale také falešnému obvinění z vraždy.  
+ A to všechno pochopitelně tím jediným způsobem, který diváci chtějí vidět. Pěstmi, v jejichž dosahu se všechno mění ve velmi účinnou zbraň - žebřík, košťě, stůl, auto, chůdy a dokonce i žralok!
+16/10/19 14:56: New data pair saved: plot - 
+16/10/19 14:56: New data pair saved: rating - 74%
+16/10/19 14:56: New data pair saved: movieName - První rána
+16/10/19 14:56: ------------------------------------------------- 
+ url:https://www.csfd.cz/film/11393-prvni-rana/prehled/
+ DataItem name: movieDetails
+
+ plot: [, Hongkongský policista Jackie přijme úkol sledovat podezřelou ruskou krásku Natašu na cestě do Ruska. Zpočátku to vypadá jako jednoduchý, dokonce příjemný úkol. Nataša totiž cestou neprovádí nic neobvyklého ani podezřelého. To ovšem platí jen do chvíle, než se setká se svým milencem Tsuiem, který ilegálně obchoduje se zbraněmi. Rázem se ve hře ocitá také ukradená ukrajinská jaderná hlavice a Jackie má najednou plné ruce práce. Poklidné sledování ve službách CIA a ruské tajné služby se mění v životu nebezpečné pronásledování Tsuie, Nataši a celé bandy dalších lotrů. Od zasněžených hor Ukrajiny až po žraloky zamořené vody v Austrálii. Musí se vyhýbat nejen smrtelným nástrahám, kulkám a smrtícím úderům, ale také falešnému obvinění z vraždy.  
+ A to všechno pochopitelně tím jediným způsobem, který diváci chtějí vidět. Pěstmi, v jejichž dosahu se všechno mění ve velmi účinnou zbraň - žebřík, košťě, stůl, auto, chůdy a dokonce i žralok!, ]
+ rating: [74%]
+ movieName: [První rána]-------------------------------------------------
+16/10/19 14:56: Parsing defined dataItem from input file: zahranicniClanky
+16/10/19 14:56: ------------------------------------------------- 
+ url:https://www.csfd.cz/film/11393-prvni-rana/prehled/
+ DataItem name: zahranicniClanky
+-------------------------------------------------
+16/10/19 14:56: Starting to parse url https://www.novinky.cz/zahranicni
+16/10/19 14:56: Javascript running: true - waiting 3000ms
+16/10/19 14:56: Loading page...
+16/10/19 14:56: Page loaded...
+16/10/19 14:56: Parsing defined dataItem from input file: movieDetails
+16/10/19 14:56: ------------------------------------------------- 
+ url:https://www.novinky.cz/zahranicni
+ DataItem name: movieDetails
+-------------------------------------------------
+16/10/19 14:56: Parsing defined dataItem from input file: zahranicniClanky
+16/10/19 14:56: New data pair saved: nazevClanku - Do Barcelony míří desetitisícové pochody z pěti měst
+16/10/19 14:56: New data pair saved: nazevClanku - Na Šumavě jsem viděla tygra. Bavoři prověřují oznámení řidičky
+16/10/19 14:56: New data pair saved: nazevClanku - V Indii našli zaživa pohřbenou novorozenou holčičku
+16/10/19 14:56: New data pair saved: nazevClanku - Aféra Gorila opět ožila. U Kočnera se našly nahrávky odposlechů
+16/10/19 14:56: New data pair saved: nazevClanku - Arogantní diletant, skončili jsme. Erdogan se tvrdě pustil do německého šéfa diplomacie
+16/10/19 14:56: New data pair saved: nazevClanku - Spojené státy vyjádřily podporu Hongkongu, Peking zuří
+16/10/19 14:56: New data pair saved: nazevClanku - Brexitová jednání dohodu zatím nepřinesla
+16/10/19 14:56: New data pair saved: nazevClanku - Kim se nechal vyfotit, jak cválá na bílém koni
+16/10/19 14:56: New data pair saved: nazevClanku - Trump vetoval rezoluci Kongresu o konci stavu nouze na hranicích
+16/10/19 14:56: New data pair saved: perex - Bouřlivé protesty, které odstartovaly v pondělí v reakci na tresty, jež vynesl španělský nejvyšší soud nad separatisty z řad bývalé katalánské vlády, pokračují...
+16/10/19 14:56: New data pair saved: perex - Policie v německé spolkové republice Bavorsko prověřuje oznámení o tygrovi na Šumavě. Šelmu podle svých slov viděla řidička v městečku Zwiesel v pondělí na...
+16/10/19 14:56: New data pair saved: perex - V Indii bylo objeveno zaživa pohřbené novorozené děvčátko. Nalezeno bylo živé a následně bylo umístěno do blízké nemocnice. O případu informovala místní...
+16/10/19 14:56: New data pair saved: perex - Slovensko opět řeší korupční aféru Gorila z let 2005 a 2006. Redakce slovenských médií obdržely 39hodinovou nahrávku rozhovorů, kterou měla ve zmíněných letech...
+16/10/19 14:56: New data pair saved: perex - Arogantní diletant, který nezná míru. Těmito slovy zaútočil turecký prezident Recep Tayyip Erdogan na německého ministra zahraničí Heiko Maase poté, co Německo...
+16/10/19 14:56: New data pair saved: perex - Americká Sněmovna reprezentantů schválila tři zákony, jimiž podpořila demonstranty v Hongkongu, kteří ve velkoměstě bojují za posílení demokracie. Přijatá...
+16/10/19 14:56: New data pair saved: perex - Noční jednání o podobě dohody o odchodu Velké Británie z Evropské unie nepřinesla žádné výsledky, napsal ve středu server BBC. Vyjednavači budou pokračovat...
+16/10/19 14:56: New data pair saved: perex - Severokorejská média zaplavily ve středu fotografie vůdce Kim Čong-una, který se na hřbetě bílého koně vydal na vrchol „posvátné“ hory Pektu, údajného rodiště...
+16/10/19 14:56: New data pair saved: perex - Americký prezident Donald Trump vetoval společnou rezoluci obou komor Kongresu, která měla zrušit jím vyhlášený stav nouze na hranici Spojených států...
+16/10/19 14:56: ------------------------------------------------- 
+ url:https://www.novinky.cz/zahranicni
+ DataItem name: zahranicniClanky
+
+ nazevClanku: [Do Barcelony míří desetitisícové pochody z pěti měst, Na Šumavě jsem viděla tygra. Bavoři prověřují oznámení řidičky, V Indii našli zaživa pohřbenou novorozenou holčičku, Aféra Gorila opět ožila. U Kočnera se našly nahrávky odposlechů, Arogantní diletant, skončili jsme. Erdogan se tvrdě pustil do německého šéfa diplomacie, Spojené státy vyjádřily podporu Hongkongu, Peking zuří, Brexitová jednání dohodu zatím nepřinesla, Kim se nechal vyfotit, jak cválá na bílém koni, Trump vetoval rezoluci Kongresu o konci stavu nouze na hranicích]
+ perex: [Bouřlivé protesty, které odstartovaly v pondělí v reakci na tresty, jež vynesl španělský nejvyšší soud nad separatisty z řad bývalé katalánské vlády, pokračují..., Policie v německé spolkové republice Bavorsko prověřuje oznámení o tygrovi na Šumavě. Šelmu podle svých slov viděla řidička v městečku Zwiesel v pondělí na..., V Indii bylo objeveno zaživa pohřbené novorozené děvčátko. Nalezeno bylo živé a následně bylo umístěno do blízké nemocnice. O případu informovala místní..., Slovensko opět řeší korupční aféru Gorila z let 2005 a 2006. Redakce slovenských médií obdržely 39hodinovou nahrávku rozhovorů, kterou měla ve zmíněných letech..., Arogantní diletant, který nezná míru. Těmito slovy zaútočil turecký prezident Recep Tayyip Erdogan na německého ministra zahraničí Heiko Maase poté, co Německo..., Americká Sněmovna reprezentantů schválila tři zákony, jimiž podpořila demonstranty v Hongkongu, kteří ve velkoměstě bojují za posílení demokracie. Přijatá..., Noční jednání o podobě dohody o odchodu Velké Británie z Evropské unie nepřinesla žádné výsledky, napsal ve středu server BBC. Vyjednavači budou pokračovat..., Severokorejská média zaplavily ve středu fotografie vůdce Kim Čong-una, který se na hřbetě bílého koně vydal na vrchol „posvátné“ hory Pektu, údajného rodiště..., Americký prezident Donald Trump vetoval společnou rezoluci obou komor Kongresu, která měla zrušit jím vyhlášený stav nouze na hranici Spojených států...]-------------------------------------------------

@@ -22,6 +22,7 @@ import jScrap.Scraper;
 public class WebParser {
 	
 	private WebClient webClient;
+	private static long elapsedTime;
 	
 	public WebParser(Scraper scraper) {
 		WebClient webClient = new WebClient(BrowserVersion.BEST_SUPPORTED);
@@ -29,15 +30,24 @@ public class WebParser {
 		
 		while (scraper.isQueueEmpty() == false) {
 			
-			Scraper.RawScrap rawScrap = scraper.takeFromQueue();			
+			Scraper.RawScrap rawScrap = scraper.takeFromQueue();
 			jScrap.logger.log("Starting to parse url " + rawScrap.getUrl());
+			webClient.getOptions().setRedirectEnabled(true);
 		    webClient.getOptions().setJavaScriptEnabled(rawScrap.isRunJavaScript());
 		    webClient.waitForBackgroundJavaScript(rawScrap.getWaitForJavaScript());
 		    webClient.getOptions().setThrowExceptionOnScriptError(false);
-
+		    
+		    webClient.getOptions().setTimeout(Integer.parseInt(scraper.getSetting("timeout")));
+		    
+		    
 		    jScrap.logger.log("Javascript running: " + rawScrap.isRunJavaScript() + " - waiting " + rawScrap.getWaitForJavaScript() + "ms");
 		    try {
 		    	jScrap.logger.log("Loading page...");
+		    	if ((System.currentTimeMillis() - elapsedTime) > Long.parseLong(scraper.getSetting("timeout"))) {
+		    		jScrap.logger.log("Error: Loading page timed out.");
+		    		return;
+		    	}
+		    	elapsedTime = System.currentTimeMillis();
 				final HtmlPage page = webClient.getPage(rawScrap.getUrl());
 				
 				if (rawScrap.getClickBeforeScrape() != null && !rawScrap.getClickBeforeScrape().isEmpty() && rawScrap.isRunJavaScript()) {
@@ -54,14 +64,14 @@ public class WebParser {
 				
 				jScrap.logger.log("Page loaded...");
 				Iterator<String> keysRawScraps = rawScrap.getDataItems().keySet().iterator();
-				while(keysRawScraps.hasNext()) {					
+				while(keysRawScraps.hasNext()) {
 					String keyRawScrap = keysRawScraps.next(); // dataItemId
 					jScrap.logger.log("Parsing defined dataItem from input file: " + keyRawScrap);
 					Scraper.Scrap scrap = scraper.new Scrap(keyRawScrap, rawScrap.getUrl());
 					
 					// go trough dataitems records
 					Iterator<String> keysDataItems = rawScrap.getDataItems().get(keyRawScrap).keySet().iterator();
-					while(keysDataItems.hasNext()) {					
+					while(keysDataItems.hasNext()) {
 						String keyDataItems = keysDataItems.next();
 						final List<DomNode> parseResult = page.getByXPath(rawScrap.getDataItems().get(keyRawScrap).get(keyDataItems));
 						
@@ -69,15 +79,18 @@ public class WebParser {
 							scrap.addData(keyDataItems, e.getTextContent().trim());
 							jScrap.logger.log("New data pair saved: " + keyDataItems + " - " +  e.getTextContent().trim());						
 						}
-					}					
+					}
 					jScrap.logger.log(scrap.toString());
-					
+					scraper.addResultData(rawScrap.getUrl(), scrap);
 				}				
 		    } catch (FailingHttpStatusCodeException e) {
+		    	jScrap.logger.log("Error: " + e.getMessage());
 				e.printStackTrace();
 			} catch (MalformedURLException e) {	
+				jScrap.logger.log("Error: " + e.getMessage());
 				e.printStackTrace();
 			} catch (IOException e) {
+				jScrap.logger.log("Error: " + e.getMessage());
 				e.printStackTrace();
 			}
 		    

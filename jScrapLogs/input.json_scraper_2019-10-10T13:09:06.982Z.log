@@ -1,0 +1,23 @@
+10/10/19 15:09: Setting delay=1000
+10/10/19 15:09: Setting logging=false
+10/10/19 15:09: Setting timeout=5000
+10/10/19 15:09: Adding url to queue for scraping: https://www.csfd.cz/film/11393-prvni-rana/prehled/
+10/10/19 15:09: Adding url to queue for scraping: https://www.csfd.cz/film/11393-prvni-rana/prehled/
+10/10/19 15:09: Starting to parse url https://www.csfd.cz/film/11393-prvni-rana/prehled/
+10/10/19 15:09: Loading page...
+10/10/19 15:09: Page loaded...
+10/10/19 15:09: Parsing defined value from input file: plot
+10/10/19 15:09: New data pair saved: plot - 
+10/10/19 15:09: Parsing defined value from input file: rating
+10/10/19 15:09: New data pair saved: rating - 74%
+10/10/19 15:09: Parsing defined value from input file: movieName
+10/10/19 15:09: New data pair saved: movieName - První rána
+10/10/19 15:09: Starting to parse url https://www.csfd.cz/film/11393-prvni-rana/prehled/
+10/10/19 15:09: Loading page...
+10/10/19 15:09: Page loaded...
+10/10/19 15:09: Parsing defined value from input file: plot
+10/10/19 15:09: New data pair saved: plot - 
+10/10/19 15:09: Parsing defined value from input file: rating
+10/10/19 15:09: New data pair saved: rating - 74%
+10/10/19 15:09: Parsing defined value from input file: movieName
+10/10/19 15:09: New data pair saved: movieName - První rána

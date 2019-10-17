@@ -1,0 +1,35 @@
+16/10/19 07:03: Setting delay=1000
+16/10/19 07:03: Setting logging=false
+16/10/19 07:03: Setting timeout=5000
+16/10/19 07:03: Adding url to queue for scraping: https://www.csfd.cz/film/11393-prvni-rana/prehled/
+16/10/19 07:03: Adding url to queue for scraping: https://www.csfd.cz/film/11393-prvni-rana/prehled/
+16/10/19 07:03: Starting to parse url https://www.csfd.cz/film/11393-prvni-rana/prehled/
+16/10/19 07:03: Loading page...
+16/10/19 07:03: Page loaded...
+16/10/19 07:03: Parsing defined value from input file: plot
+16/10/19 07:03: Parsin xpath: //*[@id="plots"]/div[2]/ul/li[1]/div/text()[1]
+16/10/19 07:03: New data pair saved: plot - 
+16/10/19 07:03: Full xpath result: 
+16/10/19 07:03: Parsing defined value from input file: rating
+16/10/19 07:03: Parsin xpath: //*[@id="rating"]/h2
+16/10/19 07:03: New data pair saved: rating - 74%
+16/10/19 07:03: Full xpath result: 74%
+16/10/19 07:03: Parsing defined value from input file: movieName
+16/10/19 07:03: Parsin xpath: //*[@id="profile"]/div[1]/div[2]/div[1]/h1
+16/10/19 07:03: New data pair saved: movieName - První rána
+16/10/19 07:03: Full xpath result: První rána
+16/10/19 07:03: Starting to parse url https://www.csfd.cz/film/11393-prvni-rana/prehled/
+16/10/19 07:03: Loading page...
+16/10/19 07:03: Page loaded...
+16/10/19 07:03: Parsing defined value from input file: plot
+16/10/19 07:03: Parsin xpath: //*[@id="plots"]/div[2]/ul/li[1]/div/text()[1]
+16/10/19 07:03: New data pair saved: plot - 
+16/10/19 07:03: Full xpath result: 
+16/10/19 07:03: Parsing defined value from input file: rating
+16/10/19 07:03: Parsin xpath: //*[@id="rating"]/h2
+16/10/19 07:03: New data pair saved: rating - 74%
+16/10/19 07:03: Full xpath result: 74%
+16/10/19 07:03: Parsing defined value from input file: movieName
+16/10/19 07:03: Parsin xpath: //*[@id="profile"]/div[1]/div[2]/div[1]/h1
+16/10/19 07:03: New data pair saved: movieName - První rána
+16/10/19 07:03: Full xpath result: První rána

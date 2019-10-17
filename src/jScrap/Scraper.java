@@ -22,8 +22,8 @@ public abstract class Scraper {
 	// HashMap of the scrapped results (to be saved into JSON file)
 	private HashMap<String, ArrayList<Scrap>> scrapedDataset = new HashMap<>();
 	
+	
 	public Scraper() {
-		
 		// load input JSON file
 		JsonHandler json = new JsonHandler(jScrap.inputJSON);
 		json.loadFromFile();
@@ -45,6 +45,7 @@ public abstract class Scraper {
 		
 		LoadScraperInput();
 		Scrape();
+		saveJSON();
 	}
 	
 	
@@ -87,6 +88,16 @@ public abstract class Scraper {
 		return jsonObject;
 	}
 	
+	public void addResultData(String id, Scrap value) {
+		ArrayList<Scrap> tempList = scrapedDataset.get(id);
+		if (tempList == null) {
+			tempList = new ArrayList<>();
+		}
+		tempList.add(value);
+		this.scrapedDataset.put(id, tempList);
+		jScrap.logger.log("Adding new result data: " + id + " - " + value.toString() + "\n");
+	}
+	
 	public class Scrap {
 		private String url;
 		private String dataItemId;
@@ -114,7 +125,7 @@ public abstract class Scraper {
 		
 		@Override
 		public String toString() {
-			String str = "------------------------------------------------- \n url:" + this.url + 
+			String str = "\n ------------------------------------------------- \n url:" + this.url + 
 					"\n DataItem name: " + this.dataItemId + "\n";
 			Iterator<String> keysDataItems = this.getData().keySet().iterator();
 			while(keysDataItems.hasNext()) {					
@@ -124,6 +135,12 @@ public abstract class Scraper {
 			str += "\n -------------------------------------------------";
 			return str;
 		}
+	}
+	
+	private void saveJSON() {
+		JsonHandler json = new JsonHandler(jScrap.outputJSON);
+		json.buildJSONfromMap(scrapedDataset);
+		json.saveToFile();
 	}
 	
 	// scrap data before html parsing is done

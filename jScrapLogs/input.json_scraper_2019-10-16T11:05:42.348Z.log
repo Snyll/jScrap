@@ -1,0 +1,47 @@
+16/10/19 13:05: Setting delay=1000
+16/10/19 13:05: Setting logging=false
+16/10/19 13:05: Setting timeout=5000
+16/10/19 13:05: Adding url to queue for scraping: https://www.csfd.cz/film/11393-prvni-rana/prehled/
+16/10/19 13:05: Adding url to queue for scraping: https://www.novinky.cz/zahranicni
+16/10/19 13:05: Starting to parse url https://www.csfd.cz/film/11393-prvni-rana/prehled/
+16/10/19 13:05: Javascript running: true - waiting 3000ms
+16/10/19 13:05: Loading page...
+16/10/19 13:06: Page loaded...
+16/10/19 13:06: Parsing defined value from input file: plot
+16/10/19 13:06: Parsin xpath: //*[@id="plots"]/div[2]/ul/li/div[1]/text()
+16/10/19 13:06: New data pair saved: plot - 
+16/10/19 13:06: New data pair saved: plot - Hongkongský policista Jackie přijme úkol sledovat podezřelou ruskou krásku Natašu na cestě do Ruska. Zpočátku to vypadá jako jednoduchý, dokonce příjemný úkol. Nataša totiž cestou neprovádí nic neobvyklého ani podezřelého. To ovšem platí jen do chvíle, než se setká se svým milencem Tsuiem, který ilegálně obchoduje se zbraněmi. Rázem se ve hře ocitá také ukradená ukrajinská jaderná hlavice a Jackie má najednou plné ruce práce. Poklidné sledování ve službách CIA a ruské tajné služby se mění v životu nebezpečné pronásledování Tsuie, Nataši a celé bandy dalších lotrů. Od zasněžených hor Ukrajiny až po žraloky zamořené vody v Austrálii. Musí se vyhýbat nejen smrtelným nástrahám, kulkám a smrtícím úderům, ale také falešnému obvinění z vraždy.  
+ A to všechno pochopitelně tím jediným způsobem, který diváci chtějí vidět. Pěstmi, v jejichž dosahu se všechno mění ve velmi účinnou zbraň - žebřík, košťě, stůl, auto, chůdy a dokonce i žralok!
+16/10/19 13:06: New data pair saved: plot - 
+16/10/19 13:06: Parsing defined value from input file: rating
+16/10/19 13:06: Parsin xpath: //*[@id="rating"]/h2
+16/10/19 13:06: New data pair saved: rating - 74%
+16/10/19 13:06: Parsing defined value from input file: movieName
+16/10/19 13:06: Parsin xpath: //*[@id="profile"]/div[1]/div[2]/div[1]/h1
+16/10/19 13:06: New data pair saved: movieName - První rána
+16/10/19 13:06: Starting to parse url https://www.novinky.cz/zahranicni
+16/10/19 13:06: Javascript running: true - waiting 3000ms
+16/10/19 13:06: Loading page...
+16/10/19 13:06: Page loaded...
+16/10/19 13:06: Parsing defined value from input file: nazevClanku
+16/10/19 13:06: Parsin xpath: //*[@id="szn-clanky"]//div[@class="f_bH"]//h3
+16/10/19 13:06: New data pair saved: nazevClanku - Do Barcelony míří desetitisícové pochody z pěti měst
+16/10/19 13:06: New data pair saved: nazevClanku - V Indii našli zaživa pohřbenou novorozenou holčičku
+16/10/19 13:06: New data pair saved: nazevClanku - Aféra Gorila opět ožila. U Kočnera se našly nahrávky odposlechů
+16/10/19 13:06: New data pair saved: nazevClanku - Arogantní diletant, skončili jsme. Erdogan se tvrdě pustil do německého šéfa diplomacie
+16/10/19 13:06: New data pair saved: nazevClanku - Spojené státy vyjádřily podporu Hongkongu, Peking zuří
+16/10/19 13:06: New data pair saved: nazevClanku - Brexitová jednání dohodu zatím nepřinesla
+16/10/19 13:06: New data pair saved: nazevClanku - Kim se nechal vyfotit, jak cválá na bílém koni
+16/10/19 13:06: New data pair saved: nazevClanku - Trump vetoval rezoluci Kongresu o konci stavu nouze na hranicích
+16/10/19 13:06: New data pair saved: nazevClanku - Američané si do Turecka navezli jaderné bomby, teď je z toho bolí hlava
+16/10/19 13:06: Parsing defined value from input file: perex
+16/10/19 13:06: Parsin xpath: //*[@id="szn-clanky"]//div[@class="f_bD"]
+16/10/19 13:06: New data pair saved: perex - Bouřlivé protesty, které odstartovaly v pondělí v reakci na tresty, jež vynesl španělský nejvyšší soud nad separatisty z řad bývalé katalánské vlády, pokračují...
+16/10/19 13:06: New data pair saved: perex - V Indii bylo objeveno zaživa pohřbené novorozené děvčátko. Nalezeno bylo živé a následně umístěné do blízké nemocnice. O případu informovala místní policie.
+16/10/19 13:06: New data pair saved: perex - Slovensko opět řeší korupční aféru Gorila z let 2005 a 2006. Redakce slovenských médií obdržely 39hodinovou nahrávku rozhovorů, kterou měla ve zmíněných letech...
+16/10/19 13:06: New data pair saved: perex - Arogantní diletant, který nezná míru. Těmito slovy zaútočil turecký prezident Recep Tayyip Erdogan na německého ministra zahraničí Heiko Maase poté, co Německo...
+16/10/19 13:06: New data pair saved: perex - Americká Sněmovna reprezentantů schválila tři zákony, jimiž podpořila demonstranty v Hongkongu, kteří ve velkoměstě bojují za posílení demokracie. Přijatá...
+16/10/19 13:06: New data pair saved: perex - Noční jednání o podobě dohody o odchodu Velké Británie z Evropské unie nepřinesla žádné výsledky, napsal ve středu server BBC. Vyjednavači budou pokračovat...
+16/10/19 13:06: New data pair saved: perex - Severokorejská média zaplavily ve středu fotografie vůdce Kim Čong-una, který se na hřbetě bílého koně vydal na vrchol „posvátné“ hory Pektu, údajného rodiště...
+16/10/19 13:06: New data pair saved: perex - Americký prezident Donald Trump vetoval společnou rezoluci obou komor Kongresu, která měla zrušit jím vyhlášený stav nouze na hranici Spojených států...
+16/10/19 13:06: New data pair saved: perex - Spojené státy by rády odvezly 50 jaderných bomb, které jsou uložené na turecké letecké základně Incirlik nedaleko syrských hranic. Důvodem je rostoucí napětí...

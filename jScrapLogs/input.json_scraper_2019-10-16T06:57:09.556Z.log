@@ -1,0 +1,47 @@
+16/10/19 08:57: Setting delay=1000
+16/10/19 08:57: Setting logging=false
+16/10/19 08:57: Setting timeout=5000
+16/10/19 08:57: Adding url to queue for scraping: https://www.csfd.cz/film/11393-prvni-rana/prehled/
+16/10/19 08:57: Adding url to queue for scraping: https://www.novinky.cz/zahranicni
+16/10/19 08:57: Starting to parse url https://www.csfd.cz/film/11393-prvni-rana/prehled/
+16/10/19 08:57: Javascript running: true - waiting 3000ms
+16/10/19 08:57: Loading page...
+16/10/19 08:57: Page loaded...
+16/10/19 08:57: Parsing defined value from input file: plot
+16/10/19 08:57: Parsin xpath: //*[@id="plots"]/div[2]/ul/li/div[1]/text()
+16/10/19 08:57: New data pair saved: plot - 
+16/10/19 08:57: New data pair saved: plot - Hongkongský policista Jackie přijme úkol sledovat podezřelou ruskou krásku Natašu na cestě do Ruska. Zpočátku to vypadá jako jednoduchý, dokonce příjemný úkol. Nataša totiž cestou neprovádí nic neobvyklého ani podezřelého. To ovšem platí jen do chvíle, než se setká se svým milencem Tsuiem, který ilegálně obchoduje se zbraněmi. Rázem se ve hře ocitá také ukradená ukrajinská jaderná hlavice a Jackie má najednou plné ruce práce. Poklidné sledování ve službách CIA a ruské tajné služby se mění v životu nebezpečné pronásledování Tsuie, Nataši a celé bandy dalších lotrů. Od zasněžených hor Ukrajiny až po žraloky zamořené vody v Austrálii. Musí se vyhýbat nejen smrtelným nástrahám, kulkám a smrtícím úderům, ale také falešnému obvinění z vraždy.  
+ A to všechno pochopitelně tím jediným způsobem, který diváci chtějí vidět. Pěstmi, v jejichž dosahu se všechno mění ve velmi účinnou zbraň - žebřík, košťě, stůl, auto, chůdy a dokonce i žralok!
+16/10/19 08:57: New data pair saved: plot - 
+16/10/19 08:57: Parsing defined value from input file: nazevClanku
+16/10/19 08:57: Parsin xpath: //*[@id="szn-clanky"]//div[class="f_bH"]//h3
+16/10/19 08:57: Parsing defined value from input file: rating
+16/10/19 08:57: Parsin xpath: //*[@id="rating"]/h2
+16/10/19 08:57: New data pair saved: rating - 74%
+16/10/19 08:57: Parsing defined value from input file: perex
+16/10/19 08:57: Parsin xpath: //*[@id="szn-clanky"]//div[@class="f_bD"]
+16/10/19 08:57: Parsing defined value from input file: movieName
+16/10/19 08:57: Parsin xpath: //*[@id="profile"]/div[1]/div[2]/div[1]/h1
+16/10/19 08:57: New data pair saved: movieName - První rána
+16/10/19 08:57: Starting to parse url https://www.novinky.cz/zahranicni
+16/10/19 08:57: Javascript running: true - waiting 3000ms
+16/10/19 08:57: Loading page...
+16/10/19 08:57: Page loaded...
+16/10/19 08:57: Parsing defined value from input file: plot
+16/10/19 08:57: Parsin xpath: //*[@id="plots"]/div[2]/ul/li/div[1]/text()
+16/10/19 08:57: Parsing defined value from input file: nazevClanku
+16/10/19 08:57: Parsin xpath: //*[@id="szn-clanky"]//div[class="f_bH"]//h3
+16/10/19 08:57: Parsing defined value from input file: rating
+16/10/19 08:57: Parsin xpath: //*[@id="rating"]/h2
+16/10/19 08:57: Parsing defined value from input file: perex
+16/10/19 08:57: Parsin xpath: //*[@id="szn-clanky"]//div[@class="f_bD"]
+16/10/19 08:57: New data pair saved: perex - Severokorejská média zaplavily ve středu fotografie vůdce Kim Čong-una, který se na hřbetě bílého koně vydal na vrchol „posvátné“ hory Pektu, údajného rodiště...
+16/10/19 08:57: New data pair saved: perex - Americká Sněmovna reprezentantů schválila tři zákony, jimiž podpořila demonstranty v Hongkongu, kteří ve velkoměstě bojují za posílení demokracie. Přijatá...
+16/10/19 08:57: New data pair saved: perex - Americký prezident Donald Trump vetoval společnou rezoluci obou komor Kongresu, která měla zrušit jím vyhlášený stav nouze na hranici Spojených států...
+16/10/19 08:57: New data pair saved: perex - Spojené státy by rády odvezly 50 jaderných bomb, které jsou uložené na turecké letecké základně Incirlik nedaleko syrských hranic. Důvodem je rostoucí napětí...
+16/10/19 08:57: New data pair saved: perex - Viceprezident Mike Pence odmítl vyhovět žádosti výborů americké Sněmovny reprezentantů a vydat dokumenty, o které požádaly v rámci vyšetřování prezidenta...
+16/10/19 08:57: New data pair saved: perex - Tisíce lidí vyšly v úterý do ulic Barcelony a dalších katalánských měst, aby vyjádřily nesouhlas s verdikty španělského nejvyššího soudu, napsala agentura DPA....
+16/10/19 08:57: New data pair saved: perex - Rodiče 19letého Brita Harryho Dunna, kterého v srpnu zabila Američanka Anne Sacoolasová při jízdě v protisměru, se s ní v USA setkají, jen pokud bude ochotna...
+16/10/19 08:57: New data pair saved: perex - Proti bývalým dozorcům z nacistických koncentračních táborů vedou německá státní zastupitelství ještě 23 řízení. Uvedl to v deníku Die Welt zástupce ředitele...
+16/10/19 08:57: Parsing defined value from input file: movieName
+16/10/19 08:57: Parsin xpath: //*[@id="profile"]/div[1]/div[2]/div[1]/h1

@@ -52,7 +52,6 @@ public class SingleScraper extends Scraper {
 					    	}
 					    }
 					    if (key.equals("dataItems")) {
-					    	System.out.println("gathering dataITems.");
 					    	String dataItemId = "";
 					    	HashMap<String, String> scrapData = new HashMap<>();
 					    	JSONArray JSONdataItemsSingle = o.getJSONArray(key);
@@ -60,7 +59,6 @@ public class SingleScraper extends Scraper {
 					    		Iterator<String> keysDataItems = ((JSONObject)dataItemSingle).keys();
 					    		while(keysDataItems.hasNext()) {
 					    			String keyDataItems = keysDataItems.next();
-					    			System.out.println("dataitem : " + keyDataItems);
 					    			if (keyDataItems.equals("id")) {
 					    				dataItemId = ((JSONObject)dataItemSingle).getString(keyDataItems);
 					    			}
@@ -69,7 +67,6 @@ public class SingleScraper extends Scraper {
 								    	Iterator<String> keysScrapData = scrapDataJO.keys();
 										while(keysScrapData.hasNext()) {
 											String keyScrapData = keysScrapData.next();
-											System.out.println("adding key " + keyScrapData);
 											scrapData.put(keyScrapData, scrapDataJO.getString(keyScrapData));
 										}
 					    			}
