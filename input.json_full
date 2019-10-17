@@ -1,0 +1,86 @@
+{"urlList": [
+	"https://google.com/",
+	"https://google.com/",
+	"https://google.com/"
+	]
+}
+
+{"MultiScrap": {
+	"baseUrl": "https://www.csfd.cz/podrobne-vyhledavani/strana-{1}/?year_from={1900}&year_to={1900}ok=Hledat&_form_=film",
+	"steps": [
+		{
+			"stepIncrement": "1",
+			"stepCycle": "1"
+		},
+		{
+			"stepIncrement": "1",
+			"stepCycle": "100"
+		},
+		{
+			"stepIncrement": "1",
+			"stepCycle": "100"
+		}
+	],
+	"linksToParse": "//a/@href",
+	"dataItemId": "movieDetails",
+	"pageLimit": "100",
+	"runJavaScript": "true",
+	"waitForJavaScript": "3000",
+	"clickBeforeScrape": "//a[id=bla]",
+	"DataItems": [
+		{"dataItem": {
+			"id": "movieDetails",
+			"runJavaScript": "true",
+			"waitForJavaScript": "3000",
+			"clickBeforeScrape": "//a[id=bla]",
+			"clickBeforeScrape": "//a[id=bla2]",
+			"srapData": {
+				"movieName": "//*[@id=\"profile\"]/div[1]/div[2]/div[1]/h1",
+				"rating": "//*[@id=\"rating\"]/h2",
+				"plot": "//*[@id=\"plots\"]/div[2]/ul/li[1]/div/text()[1]"
+				}
+			}
+			
+		},
+		{
+		}
+	]
+}
+
+{"DataItems": [
+	{"dataItem": {
+		"id": "movieDetails",
+		"runJavaScript": "true",
+		"waitForJavaScript": "3000",
+		"clickBeforeScrape": "//a[id=bla]",
+		"clickBeforeScrape": "//a[id=bla2]",
+		"srapData": {
+			"movieName": "//*[@id=\"profile\"]/div[1]/div[2]/div[1]/h1",
+			"rating": "//*[@id=\"rating\"]/h2",
+			"plot": "//*[@id=\"plots\"]/div[2]/ul/li[1]/div/text()[1]"
+			}
+		}
+		
+	},
+	{
+	}
+]
+}
+
+{"SingleSrap": {
+	"url": "https://www.csfd.cz/film/11393-prvni-rana/prehled/",
+	"runJavaScript": "true",
+	"waitForJavaScript": "3000",
+	"clickBeforeScrape": "//a[id=bla]",
+	"srapData": {
+		"movieName": "//*[@id=\"profile\"]/div[1]/div[2]/div[1]/h1",
+		"rating": "//*[@id=\"rating\"]/h2",
+		"plot": "//*[@id=\"plots\"]/div[2]/ul/li[1]/div/text()[1]"
+		}
+}
+{"Settings": {
+	"logging": "false",
+	"timeout": "5000",
+	"delay": "1000"		
+	}
+}
