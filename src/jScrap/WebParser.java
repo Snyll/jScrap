@@ -44,6 +44,7 @@ public class WebParser {
 		    try {
 		    	jScrap.logger.log("Loading page...");
 		    	if ((System.currentTimeMillis() - elapsedTime) > Long.parseLong(scraper.getSetting("timeout"))) {
+		    		elapsedTime = System.currentTimeMillis();
 		    		jScrap.logger.log("Error: Loading page timed out.");
 		    		return;
 		    	}
