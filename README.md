@@ -5,6 +5,8 @@ Dependencies: htmlunit-2.36.0; json-20190722
 This scraper takes input json file with configuration and produces json output with scraped result. 
 Runs JavaScript and is able to click buttons before scraping the page (read more links etc.)
 
+usage: java -jar jScrap.jar input.json output.json
+
 ## input.json example
 ```
 {
