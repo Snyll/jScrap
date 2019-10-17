@@ -1,0 +1,116 @@
+17/10/19 07:51: Setting delay=1000
+17/10/19 07:51: Setting logging=false
+17/10/19 07:51: Setting timeout=5000
+17/10/19 07:51: Adding url to queue for scraping: https://www.kurzy.cz/kurzy-men/
+17/10/19 07:51: Starting to parse url https://www.kurzy.cz/kurzy-men/
+17/10/19 07:51: Javascript running: true - waiting 3000ms
+17/10/19 07:51: Loading page...
+17/10/19 07:51: Page loaded...
+17/10/19 07:51: Parsing defined dataItem from input file: kurzyMen
+17/10/19 07:51: New data pair saved: mena - USD
+17/10/19 07:51: New data pair saved: mena - AUD
+17/10/19 07:51: New data pair saved: mena - BRL
+17/10/19 07:51: New data pair saved: mena - GBP
+17/10/19 07:51: New data pair saved: mena - BGN
+17/10/19 07:51: New data pair saved: mena - CNY
+17/10/19 07:51: New data pair saved: mena - DKK
+17/10/19 07:51: New data pair saved: mena - EUR
+17/10/19 07:51: New data pair saved: mena - PHP
+17/10/19 07:51: New data pair saved: mena - HKD
+17/10/19 07:51: New data pair saved: mena - HRK
+17/10/19 07:51: New data pair saved: mena - INR
+17/10/19 07:51: New data pair saved: mena - IDR
+17/10/19 07:51: New data pair saved: mena - ISK
+17/10/19 07:51: New data pair saved: mena - ILS
+17/10/19 07:51: New data pair saved: mena - JPY
+17/10/19 07:51: New data pair saved: mena - ZAR
+17/10/19 07:51: New data pair saved: mena - KRW
+17/10/19 07:51: New data pair saved: mena - CAD
+17/10/19 07:51: New data pair saved: mena - HUF
+17/10/19 07:51: New data pair saved: mena - MYR
+17/10/19 07:51: New data pair saved: mena - MXN
+17/10/19 07:51: New data pair saved: mena - XDR
+17/10/19 07:51: New data pair saved: mena - NOK
+17/10/19 07:51: New data pair saved: mena - NZD
+17/10/19 07:51: New data pair saved: mena - PLN
+17/10/19 07:51: New data pair saved: mena - RON
+17/10/19 07:51: New data pair saved: mena - RUB
+17/10/19 07:51: New data pair saved: mena - SGD
+17/10/19 07:51: New data pair saved: mena - SEK
+17/10/19 07:51: New data pair saved: mena - CHF
+17/10/19 07:51: New data pair saved: mena - THB
+17/10/19 07:51: New data pair saved: mena - TRY
+17/10/19 07:51: New data pair saved: hodnotaDnes - 23.3650
+17/10/19 07:51: New data pair saved: hodnotaDnes - 15.7140
+17/10/19 07:51: New data pair saved: hodnotaDnes - 5.5980
+17/10/19 07:51: New data pair saved: hodnotaDnes - 29.7600
+17/10/19 07:51: New data pair saved: hodnotaDnes - 13.1700
+17/10/19 07:51: New data pair saved: hodnotaDnes - 3.2910
+17/10/19 07:51: New data pair saved: hodnotaDnes - 3.4480
+17/10/19 07:51: New data pair saved: hodnotaDnes - 25.7600
+17/10/19 07:51: New data pair saved: hodnotaDnes - 45.3160
+17/10/19 07:51: New data pair saved: hodnotaDnes - 2.9780
+17/10/19 07:51: New data pair saved: hodnotaDnes - 3.4660
+17/10/19 07:51: New data pair saved: hodnotaDnes - 32.7050
+17/10/19 07:51: New data pair saved: hodnotaDnes - 1.6490
+17/10/19 07:51: New data pair saved: hodnotaDnes - 18.6260
+17/10/19 07:51: New data pair saved: hodnotaDnes - 6.5980
+17/10/19 07:51: New data pair saved: hodnotaDnes - 21.4880
+17/10/19 07:51: New data pair saved: hodnotaDnes - 1.5600
+17/10/19 07:51: New data pair saved: hodnotaDnes - 1.9660
+17/10/19 07:51: New data pair saved: hodnotaDnes - 17.6890
+17/10/19 07:51: New data pair saved: hodnotaDnes - 7.7350
+17/10/19 07:51: New data pair saved: hodnotaDnes - 5.5700
+17/10/19 07:51: New data pair saved: hodnotaDnes - 1.2150
+17/10/19 07:51: New data pair saved: hodnotaDnes - 32.0270
+17/10/19 07:51: New data pair saved: hodnotaDnes - 2.5390
+17/10/19 07:51: New data pair saved: hodnotaDnes - 14.5930
+17/10/19 07:51: New data pair saved: hodnotaDnes - 5.9960
+17/10/19 07:51: New data pair saved: hodnotaDnes - 5.4160
+17/10/19 07:51: New data pair saved: hodnotaDnes - 36.3830
+17/10/19 07:51: New data pair saved: hodnotaDnes - 17.0180
+17/10/19 07:51: New data pair saved: hodnotaDnes - 2.3770
+17/10/19 07:51: New data pair saved: hodnotaDnes - 23.4270
+17/10/19 07:51: New data pair saved: hodnotaDnes - 76.8080
+17/10/19 07:51: New data pair saved: hodnotaDnes - 3.9570
+17/10/19 07:51: New data pair saved: hodnotaVcera - 23.4580
+17/10/19 07:51: New data pair saved: hodnotaVcera - 15.8480
+17/10/19 07:51: New data pair saved: hodnotaVcera - 5.6800
+17/10/19 07:51: New data pair saved: hodnotaVcera - 29.6600
+17/10/19 07:51: New data pair saved: hodnotaVcera - 13.2010
+17/10/19 07:51: New data pair saved: hodnotaVcera - 3.3130
+17/10/19 07:51: New data pair saved: hodnotaVcera - 3.4560
+17/10/19 07:51: New data pair saved: hodnotaVcera - 25.8200
+17/10/19 07:51: New data pair saved: hodnotaVcera - 45.4340
+17/10/19 07:51: New data pair saved: hodnotaVcera - 2.9900
+17/10/19 07:51: New data pair saved: hodnotaVcera - 3.4730
+17/10/19 07:51: New data pair saved: hodnotaVcera - 32.8100
+17/10/19 07:51: New data pair saved: hodnotaVcera - 1.6560
+17/10/19 07:51: New data pair saved: hodnotaVcera - 18.6700
+17/10/19 07:51: New data pair saved: hodnotaVcera - 6.6580
+17/10/19 07:51: New data pair saved: hodnotaVcera - 21.6570
+17/10/19 07:51: New data pair saved: hodnotaVcera - 1.5780
+17/10/19 07:51: New data pair saved: hodnotaVcera - 1.9780
+17/10/19 07:51: New data pair saved: hodnotaVcera - 17.7310
+17/10/19 07:51: New data pair saved: hodnotaVcera - 7.7680
+17/10/19 07:51: New data pair saved: hodnotaVcera - 5.5980
+17/10/19 07:51: New data pair saved: hodnotaVcera - 1.2200
+17/10/19 07:51: New data pair saved: hodnotaVcera - 32.1500
+17/10/19 07:51: New data pair saved: hodnotaVcera - 2.5650
+17/10/19 07:51: New data pair saved: hodnotaVcera - 14.7120
+17/10/19 07:51: New data pair saved: hodnotaVcera - 6.0110
+17/10/19 07:51: New data pair saved: hodnotaVcera - 5.4310
+17/10/19 07:51: New data pair saved: hodnotaVcera - 36.3950
+17/10/19 07:51: New data pair saved: hodnotaVcera - 17.1130
+17/10/19 07:51: New data pair saved: hodnotaVcera - 2.3860
+17/10/19 07:51: New data pair saved: hodnotaVcera - 23.5220
+17/10/19 07:51: New data pair saved: hodnotaVcera - 77.2150
+17/10/19 07:51: New data pair saved: hodnotaVcera - 3.9940
+17/10/19 07:51: ------------------------------------------------- 
+ url:https://www.kurzy.cz/kurzy-men/
+ DataItem name: kurzyMen
+
+ mena: [USD, AUD, BRL, GBP, BGN, CNY, DKK, EUR, PHP, HKD, HRK, INR, IDR, ISK, ILS, JPY, ZAR, KRW, CAD, HUF, MYR, MXN, XDR, NOK, NZD, PLN, RON, RUB, SGD, SEK, CHF, THB, TRY]
+ hodnotaDnes: [23.3650, 15.7140, 5.5980, 29.7600, 13.1700, 3.2910, 3.4480, 25.7600, 45.3160, 2.9780, 3.4660, 32.7050, 1.6490, 18.6260, 6.5980, 21.4880, 1.5600, 1.9660, 17.6890, 7.7350, 5.5700, 1.2150, 32.0270, 2.5390, 14.5930, 5.9960, 5.4160, 36.3830, 17.0180, 2.3770, 23.4270, 76.8080, 3.9570]
+ hodnotaVcera: [23.4580, 15.8480, 5.6800, 29.6600, 13.2010, 3.3130, 3.4560, 25.8200, 45.4340, 2.9900, 3.4730, 32.8100, 1.6560, 18.6700, 6.6580, 21.6570, 1.5780, 1.9780, 17.7310, 7.7680, 5.5980, 1.2200, 32.1500, 2.5650, 14.7120, 6.0110, 5.4310, 36.3950, 17.1130, 2.3860, 23.5220, 77.2150, 3.9940]
+ -------------------------------------------------

@@ -43,12 +43,7 @@ public class WebParser {
 		    jScrap.logger.log("Javascript running: " + rawScrap.isRunJavaScript() + " - waiting " + rawScrap.getWaitForJavaScript() + "ms");
 		    try {
 		    	jScrap.logger.log("Loading page...");
-		    	if ((System.currentTimeMillis() - elapsedTime) > Long.parseLong(scraper.getSetting("timeout"))) {
-		    		elapsedTime = System.currentTimeMillis();
-		    		jScrap.logger.log("Error: Loading page timed out.");
-		    		return;
-		    	}
-		    	elapsedTime = System.currentTimeMillis();
+		    	
 				final HtmlPage page = webClient.getPage(rawScrap.getUrl());
 				
 				if (rawScrap.getClickBeforeScrape() != null && !rawScrap.getClickBeforeScrape().isEmpty() && rawScrap.isRunJavaScript()) {

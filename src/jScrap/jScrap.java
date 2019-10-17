@@ -19,18 +19,22 @@ public class jScrap {
 	}
 	
 	public static void main(String[] args) {
-		jScrap.inputJSON = args[0];
-		jScrap.outputJSON = args[1];
-		if (jScrap.inputJSON.equals("")) {
+		if (args.length != 0) {
+			if (args[0] != null) {
+				jScrap.outputJSON = args[0];
+			}
+			if (args[1] != null) {
+				jScrap.outputJSON = args[1];
+			}
+		}
+		if (jScrap.inputJSON == null) {
 			jScrap.inputJSON = "input.json";
 		}
-		if (jScrap.outputJSON.equals("")) {
+		if (jScrap.outputJSON == null) {
 			jScrap.outputJSON = "output.json";
 		}
 		logger = new Logger("jScrapLogs" + File.separator + (new File(inputJSON).getName()) + "_scraper_" + Instant.now() + ".log", true);
 		Scraper scraper = new SingleScraper();
-		
-        
 	}
 
 }
